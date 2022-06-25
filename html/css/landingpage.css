@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;  
+    flex-direction: column;
+    height: 100vh;
+}
+.banner {
+    font-size: 20px;
+    background-color: rgba(239, 215, 35, 0.874);
+    text-align: center;
+}
+.navbar{
+    font-size: 25px;
+    align-items: center;
+    color: aliceblue;
+    background-color: #353535;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;   
+    height: 60px;
+}
+.logo{
+    max-width: 50px;
+    height: auto;
+}
+.nav-item{
+    
+    display: inline;
+}
+.forgot{
+    margin: 10px 0;
+}
+.login {
+    font-size: 25px;
+    color: white;
+    background-color: #3ab;
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 1em;
+}
+.search {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.search  input, button{
+    height: 35px;
+}
+.search input {
+    width: 200px;
+    padding: 0.3em 0.5em;
+}
+.search button {
+    border-radius: 0.3em;
+    width: 80px;
+}
+main {
+    background-color: rgb(74, 190, 208);
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.registro {
+    border-radius: 1em ;
+    color: whitesmoke;
+    width: 500px;
+    height: 600px;
+    background-color: #2a2a2a;
+}
+form {
+    
+    display: flex;
+    flex-direction: column;
+   padding: 2em;
+   align-content: center;
+   justify-content: center;
+}
+form input{
+    height: 50px;
+}
+form .forgot {
+    text-align: left;
+    color: rgba(54, 228, 255, 0.793);
+}
+.user {
+    margin-top:35px;
+}
+.redes-sociales h1 {
+    margin: 0 auto ;
+}
+.redes-sociales{
+    display: flex;
+    justify-content: space-around;  
+    margin-bottom: 2em;
+}
+.redes-sociales button {
+    width: 200px;
+}
+h1 {
+    text-align: center;
+}
+form .login {
+    margin-bottom: 0.5em;
+    transition: all 0.3s;
+}
+label {
+    margin:0.5em 0;
+}
+.orlogin{
+    margin-bottom:0.5em;
+}
+.session .login {
+    transition: all 0.3s;
+    font-size: 20px;
+    padding: 10px 0.5em
+}
+
+form .login:hover, .session .login:hover {
+    cursor:pointer;
+    background-color: rgb(24, 115, 131);
+}
+.nav-item a:hover, .session .signin:hover {
+    text-decoration: underline;
+}
+form p a {
+    text-align: center;
+}
+form a {
+    color: rgba(54, 228, 255, 0.793);
+
+}

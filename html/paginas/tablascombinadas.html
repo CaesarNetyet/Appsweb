@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/htmlcss.css">
+    <style>
+        tr{
+            /* Julio Cesar Tovar */
+            text-align: center;
+            background-color: #fafafa;
+        }
+        body{
+           margin: 0;
+           padding: 0;
+
+        }
+        div {
+            
+            display: flex;
+            font-size: 25px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        div h1{
+            font-family:Arial, Helvetica, sans-serif
+        }
+        table {
+            margin-top: 1.2em;
+            border: 5px solid rgb(40, 170, 230)
+        }
+        .back {
+        padding: 5px;
+        margin: 0 auto;
+        color: #424242;
+        font-size: 3em;
+        width: 250px;
+        background-color: #fafafa;
+        border: 5px solid #3ab;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+      }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas combinadas</title>
+</head>
+<body>
+   <div>
+       <h1>Celdas combinadas</h1>
+    <table border="1">
+        <caption>
+            Tabla combinada columnas
+        </caption>
+        <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+            <th>Columna 4</th>
+        </tr>
+        <tr>
+            <td colspan="2">dato1</td>
+            <td colspan="2">dato2</td>
+        </tr>
+        <tr>
+            <td colspan="3">dato 3</td>
+            <td>dato 4</td>
+        </tr>
+        <tr>
+            <td colspan="4">dato 5</td>
+        </tr>
+    </table>
+   
+    <table border="1">
+        <caption>
+            Tabla combinada filas
+        </caption>
+        <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+            <th>Columna 4</th>
+        </tr>
+        <tr>
+            <td rowspan="2">dato 1</td>
+            <td>dato 2</td>
+            <td rowspan="2">dato 3</td>
+            <td>dato 4</td>
+        </tr>
+        <tr>
+            <td>dato 5</td>
+            <td>dato 6</td>
+        </tr>
+        
+    </table>
+    <table border="1">
+        <caption>
+            Uso de colspan
+        </caption>
+        <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+            
+        </tr>
+        <tr>
+            <td colspan="2">dato1</td>
+            <td >dato2</td>
+        </tr>
+        <tr>
+            <td colspan=>dato 3</td>
+            <td colspan="2">dato 4</td>
+        </tr>
+        <tr>
+            <td colspan="4">dato 5</td>
+        </tr>
+    </table>
+    <table border="1">
+        <caption>Uso de rowspan</caption>
+        <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Dato 1</td>
+            <td>Dato 2</td>
+            <td rowspan="2">Dato 3</td>
+        </tr>
+        <tr>
+            <td>dato 4</td>
+        </tr>
+        <tr>
+               <td colspan="2">Dato 5</td>
+            <td rowspan="2"> Dato 6</td>
+
+        </tr>
+        <tr>
+            <td>Dato 7</td>
+            <td>Dato 8</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">Dato 9</td>
+            <td>Dato 10</td>
+            
+        </tr>
+        <tr>
+        <td>
+            Dato 11
+        </td>
+    </tr>
+       
+    </table>
+
+    <table border="1">
+       <tr>
+           <td colspan="2">datps</td>
+           <td colspan="3">datps</td>
+           <td>datps</td>
+           <td>datps</td>
+           <td>datps</td>
+           
+
+       </tr>
+       <tr>
+           
+           <td>datps</td>
+           <td colspan="2" rowspan="2">datps</td>
+           <td rowspan="2">datps</td>
+           <td>datps</td>
+           <td colspan="3">datps</td>
+       </tr>
+       <tr>
+           <td>datps</td>
+           <td colspan="3" rowspan="2">datps</td>
+           <td rowspan="2">datps</td>
+       </tr>
+       <tr>
+           <td colspan="4">datps</td>
+       </tr>
+    </table>
+    <a class="back" href="../inicio.html">Regresar a Inicio</a>
+   </div>
+   
+</body>
+</html>

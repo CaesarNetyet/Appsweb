@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/htmlcss.css">
+    <style>
+        /* Julio Cesar Tovar */
+        form {
+            width: 50%;
+
+        }
+         input {
+            margin-bottom: 1    em;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RELLENAR CV</title>
+    <!-- Julio Cesar Tovar -->
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <Legend>Rellena tu CV</Legend>
+            <label for="name">Nombre</label>
+            <br>
+            <input type="text" placeholder="inserta tu nombre" name="name">
+            <br>
+            <label for="apellidos">Apellidos</label>
+            <br>
+            <input type="text" placeholder="Inserta tus apellidos" name="apellidos">
+            <br>
+            <label for="password">Contraseña</label>
+            <br>
+            <input placeholder="Escribe tu contraseña" name="password" type="password">
+            <br>
+            <label for="dni">DNI</label>
+            <br>
+            <input type="text" name="dni" placeholder="Escribe tu dni aquì">
+            <br>
+            <label for="sexo">Sexo</label>
+                <input type="radio" name="sexo" value="masculino">Masculino
+                <input type="radio" name="sexo" value="femenino">Femenino
+            <br>
+            <label for="foto">Agregar foto</label>
+                    <input type="file" name="foto">
+            <br>
+            <input type="checkbox" name="subscribe" value="subscribe"> Suscribirme al boletin de actividades
+            <br>
+            <input type="submit" value="Guardar Cambios">
+            <input type="reset" value="Borrar datos introducidos">
+        </fieldset>
+    </form>
+</body>
+</html>

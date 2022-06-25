@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin-top: 1em;
+    text-shadow: 5px 5px #353555;
+}
+
+body {
+    text-align: center;
+    font-family: system-ui;
+    background: #353535;
+    color: white;
+}
+div {
+    margin: 0 auto;
+    margin-top: 2.5em;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+img {
+    width: 400px;
+    height: 280px;
+    border: 0.3rem solid #3ab;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/css/htmlcss.css">
+    <style>
+      * {
+        /* Julio Cesar Tovar */
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 2.25;
+        margin-top: 1em;
+        text-align: center;
+      }
+      .tablas {
+        text-align: center;
+        padding-bottom: 2.5rem;
+        font-size: 1.7rem;
+        margin-top: 2.5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .tablas caption {
+        margin-bottom: 1em;
+      }
+      img {
+        margin: 0 auto;
+        display: block;
+        width: 2.5em;
+      }
+      .td-flex img{
+          display: inline;
+      }
+      .back {
+        padding: 5px;
+        margin: 0 auto;
+        color: #424242;
+        font-size: 3em;
+        width: 250px;
+        background-color: #fafafa;
+        border: 5px solid #3ab;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+      }
+      tr {
+        background-color: white;
+      }
+      caption {
+        color: #3ab;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Analisis de ventas</h1>
+    <div class="tablas">
+      <table border="1">
+        <caption>
+          Analisis de ventas anuales
+        </caption>
+        <tr>
+          <th rowspan="2">AO</th>
+          <th colspan="4">Expansion de ventas</th>
+        </tr>
+        <tr>
+          <th>Producto A</th>
+          <th>Producto B</th>
+          <th>Producto C</th>
+          <th>Producto D</th>
+        </tr>
+        <tr>
+          <th>N-3</th>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <th>N-2</th>
+          <td>3</td>
+          <td>5</td>
+          <td>8</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <th>N-1</th>
+          <td>4</td>
+          <td>4</td>
+          <td>7</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <th>N</th>
+          <td>5</td>
+          <td>7</td>
+          <td>6</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <th rowspan="2">ano</th>
+          <th>Productos A</th>
+          <th>Productos B</th>
+          <th>Productos C</th>
+          <th>Productos D</th>
+        </tr>
+        <tr>
+          <th colspan="4">Expansion de ventas</th>
+        </tr>
+      </table>
+      <h1>Comparativa de reproductores MP3</h1>
+      <table border="1">
+        <caption>
+          Tabla comparativa de las caracteristicas tecnicas de los reproductores
+          MP3
+        </caption>
+        <tr>
+          <th></th>
+
+          <th colspan="3">
+            <img src="../img/mp3 mini.jpeg" alt="Mp3 mini" />
+            MP3 mini
+          </th>
+          <th colspan="2"> <img src="../img/mp3 grande.jpeg">MP3 grande</th>
+        </tr>
+        <tr>
+          <th>Capacidad de almacenamiento</th>
+          <td>4GB <br> (1,000 canciones)</td>
+          <td>8GB <br>(2,000 canciones)</td>
+          <td>16GB <br> (4,000 canciones)</td>
+          <td>30GB <br> (7,500 canciones)</td>
+          <td>80GB <br> (20,000 canciones)</td>
+        </tr>
+        <tr>
+          <th>Colores</th>
+          <td><img src="../img/bolita blanca.jpeg"></td>
+          <td><img src="../img/bolitas colores.png"></td>
+          <td><img src="../img/bolita negra.jpeg"></td>
+          
+          <td class="td-flex" colspan="2"><img src="../img/bolita blanca.jpeg"><img src="../img/bolita negra.jpeg"></td>
+        </tr>
+        <tr>
+          <th>Pantalla</th>
+          <td colspan="3">LCD de 3cm (Diagonal) <br> con retroiluminacion</td>
+          <td colspan="2">LCD de 6cm (Diagonal) <br> con retroiluminacion</td>
+        </tr>
+        <tr>
+          <th rowspan="2">Tiempo de carga</th>
+          <td rowspan="2" colspan="3">3 Horas</td>
+          <td colspan="2">4 Horas</td>
+        </tr>
+        <tr>
+          <td colspan="2">2 Horas para alcanzar <br> el 80% de <br> capacidad</td>
+        </tr>
+      </table>
+    </div>
+    <a class="back" href="../inicio.html">Regresar a Inicio</a>
+  </body>
+</html>

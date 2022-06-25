@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="/css/htmlcss.css">
+    <style>
+      /* Julio Cesar Tovar */
+      .top, .bot {
+        border: 5px solid #3ab;
+      }
+      .top {
+        padding: 0.5em;
+        display: flex;
+        flex-direction: column;
+      }
+      .top div {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica tres</title>
+  </head>
+  <body>
+    <h1>ENCUESTA CAMPUS VIRTUAL</h1>
+    <form action="#">
+      <div class="top">
+        <div>
+          <label for="name">Nombre</label>
+          <input type="text" name="name" />
+        </div>
+        <br />
+        <div>
+          <label for="departamento">Departamento</label>
+          <select name="departamento">
+              <option value="direccion">Direccion</option>
+              <option value="administracion">Administracion</option>
+              <option value="salon">Salon</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="edificio">Edificio</label>
+          <select name="edificio">
+             <option value="A">Edificio A</option>
+             <option value="B">Edificio B</option>
+             <option value="C">Edificio C</option>
+             <option value="D">Edificio D</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="email">Email</label>
+          <input type="text" name="email" />
+        </div>
+        <br />
+        <div>
+          <label for="phone">Telefono</label>
+          <input type="text" name="phone" />
+        </div>
+        <br />
+        <div>
+          <label for="virtual">Usa habitualmente el campus virtual?</label>
+          <div>
+            <input type="radio" name="virtual" value="yes" />SI
+            <input type="radio" name="virtual" value="no" />NO
+          </div>
+        </div>
+        <br />
+        <div>
+          <label for="formacion"
+            >Esta interesado en recibir formacion personalizada sobre
+            lasposibilidades de esta herramienta informatica?</label
+          >
+          <div>
+            <input type="radio" name="formacion" value="yes" />SI
+            <input type="radio" name="formacion" value="no" />NO
+          </div>
+        </div>
+        <br />
+      </div>
+      <h1>CALENDARIO APROXIMADO DE FORMACION</h1>
+      <div class="bot">
+        
+      
+      <label for="turno">TURNO PREFERENTE</label>
+
+      Manana <input type="checkbox" name="manana" value="Manana" /> 
+      Tarde <input type="checkbox" name="tarde" value="tarde" />
+      <br>
+      <label for="mes">Mes preferente:</label>
+      <select name="mes">
+          <option value="enero">Enero</option>
+          <option value="febrero">Febrero</option>
+          <option value="marzo">Marzo</option>
+          <option value="abril">Abril</option>
+      </select>
+      <br>
+      <label for="horario">Horario Preferente:</label>
+      
+      <select name="horario">
+          <option value="8">8:00</option>
+          <option value="9">9:00</option>
+          <option value="10">10:00</option>
+          <option value="11">11:00</option>
+      </select>
+      <br>
+      <label for="comentarios">Comentarios:</label>
+      <textarea name="comentarios" cols="30" rows="10"></textarea>
+      <br>
+      <input type="submit" value="Subir"> <input type="reset" value="Reiniciar">
+      </div>
+    </form>
+  </body>
+</html>

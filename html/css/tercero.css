@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #353535;
+}
+ul {
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+}
+li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    margin: 0.5rem 1rem;
+    transition: all 500ms;
+}
+li a:hover {
+    text-decoration: underline;
+    font-size: 45px;
+}
+.container {
+
+    height: 100vh;
+    text-align: center;
+    background-color: #3fa;
+}
+img {
+    margin-top: 2rem;
+    width: 85%;
+}

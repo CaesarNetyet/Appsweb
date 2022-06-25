@@ -1,0 +1,41 @@
+html {
+    font-family: sans-serif;
+    background-color: #1ba5f1;
+}
+main, header {
+     margin-top: 3em;
+     background-color: aliceblue;
+}
+
+.container {
+    border:  10px solid #4baf5a ;
+    padding: 3em;
+    width: 1000px;
+    margin: 3em auto;
+    background-color: #3abba3;
+}
+.titulo  {
+    background-color: #353535;
+    color: red;
+    font:800;
+    text-align: center;
+}
+h2 {
+    font-size: 20px;
+}
+.letra1 {
+    color: red;
+
+}
+.letra2 {
+    color: #3ab4bf;
+    text-decoration: line-through;
+
+}
+.letra3 {
+    color: #4baf5a;
+    text-decoration: overline;
+}
+p {
+    color: #ffba42;
+}
