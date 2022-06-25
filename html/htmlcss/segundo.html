@@ -1,22 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/segundo1.css" />
     <title>Document</title>
-</head>
-<body>
-    <main>
-        <h1>Ciudadano</h1>
-        <form action="#">
-            <br><label for="name">Nombre</label> <input type="text" name="name" placeholder="Inserta tu nombre">
-            <br><label for="name">Nombre</label> <input type="text" name="name" placeholder="Inserta tu nombre">
-            <br><label for="apmaterno">Ap Materno</label> <input type="text" name="apmaterno" placeholder="Inserta tu Apellido Materno">
-            <br><label for="date">Fecha de nacimiento</label> <input type="date" name="date">
-            
+  </head>
+  <body>
+    <div id="cuadro">
+      <center>
+        <h2>CUIDADANO</h2>
+        <hr />
+        <form action="#" method="#">
+          Nombre: <input type="text" name="Nombre" /> <br />
+          <br />
+          Ap Paterno: <input type="text" name="A Paterno" /> <br />
+          <br />
+          Ap Materno: <input type="text" name="A Materno" /> <br />
+          <br />
+          Fecha de Nacimiento: <input type="date" name="Fecha" /> <br />
+          <br />
+          Genero: <br />
+          <input type="radio" name="Genero" value="Masculino" /> Masculino
+          <br />
+          <input type="radio" name="Genero" value="Femenino" /> Femenino <br />
+          <br />
+          Redes Sociales: <br>
+          <input type="checkbox" name="facebook" value="Facebook" />Facebook
+          <br />
+          <input type="checkbox" name="Instagram" value="Instagram" />Instagram
+          <br />
+          <input type="checkbox" name="Twitter" value="Twitter" />Twitter <br />
+          <br />
 
+          Comentarios: <br />
+          <br />
+          <textarea
+            name="Comentarios"
+            cols="100"
+            rows="10"
+            placeholder="Escribe aqui..."
+          ></textarea>
+          <br />
+          <br />
+
+          <input type="submit" name="Guardar" value="Guardar" id="boton" />
         </form>
-    </main>
-</body>
+      </center>
+    </div>
+  </body>
 </html>
