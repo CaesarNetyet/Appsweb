@@ -43,6 +43,7 @@ body {
     background-color: #3ab;
 }
 a {
+    transition: all 300ms;
     color: aliceblue;
     text-decoration: none;
     margin-left: 1em;
@@ -131,6 +132,7 @@ form .login:hover, .session .login:hover {
 }
 .nav-item a:hover, .session .signin:hover {
     text-decoration: underline;
+    font-size:30px;
 }
 form p a {
     text-align: center;
@@ -138,4 +140,10 @@ form p a {
 form a {
     color: rgba(54, 228, 255, 0.793);
 
+}
+img {
+    transition: all 500ms;
+}
+img:hover {
+    height: 700px;
 }
