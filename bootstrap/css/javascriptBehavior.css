@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;300;400&display=swap');
+html {
+    font-family: 'Arima', cursive;  
+    background: inherit;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+figure img {
+    padding: 1em;
+    width: 8vw;
+    height: 8vw;
+    display: block;
+    margin: auto;
+    border: 3px solid #3ab;
+    border-radius: 50%;
+}
+.tab-pane .fade {
+    height: 250px;
+    padding: 1em;
+    color: white;
+}
+div .viewport {
+    height: 700px;
+}
+
+.scrolling, .card-text {
+    overflow-y: scroll;
+}
+
+.full-card {
+    height: 350px;
+}   
+
+.full-card img {
+    height: 130px;
+}
+
+.card-text {
+    height: 100px;
+}
